@@ -35,11 +35,10 @@
     </form>
 
     <hr />
-
+    <h2 th:text="${zise}"></h2>
     <table th:each="map : ${results}" class="job-listing">
         <tr th:each="row : ${map}">
             <th th:text="${row.key}"></th>
-            <td th:text="${row.value}"></td>
             <td th:text="${row.value}"></td>
         </tr>
     </table>

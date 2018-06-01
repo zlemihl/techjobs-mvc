@@ -83,8 +83,8 @@ public class JobData {
 
             if (aValue != null && aValue.toLowerCase().contains(value.toLowerCase())) {
                 jobs.add(row);
+                }
             }
-        }
 
         return jobs;
     }
